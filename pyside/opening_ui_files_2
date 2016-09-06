@@ -9,7 +9,7 @@ class MainWindow(QtGui.QDialog):
         loadUi("interface.ui", self)
     @QtCore.Slot()
     def test(self):
-        self.mylabel.setText("Ouuyeahh")
+        self.mylabel.setText("yeahh")
 
 app = QtGui.QApplication(sys.argv)
 
